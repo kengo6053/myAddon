@@ -8,6 +8,3 @@ class TestOperatorOperator(bpy.types.Operator):
         self.report({'INFO'}, f"オペレータ『{self.bl_idname}』を実行しました")
         
         return {"FINISHED"}
-    
-    
-()
